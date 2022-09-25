@@ -38,18 +38,18 @@ const bricksColorTexture = textureLoader.load("/textures/bricks/color.jpg");
 const bricksAmbientOcclusionTexture = textureLoader.load(
   "/textures/bricks/ambientOcclusion.jpg"
 );
-const bricksNormalTexture = textureLoader.load("/textures/grass/normal.jpg");
+const bricksNormalTexture = textureLoader.load("/textures/bricks/normal.jpg");
 const bricksRoughnessTexture = textureLoader.load(
-  "/textures/grass/roughness.jpg"
+  "/textures/bricks/roughness.jpg"
 );
 
 const grassColorTexture = textureLoader.load("/textures/grass/color.jpg");
 const grassAmbientOcclusionTexture = textureLoader.load(
-  "/textures/bricks/ambientOcclusion.jpg"
+  "/textures/grass/ambientOcclusion.jpg"
 );
 const grassNormalTexture = textureLoader.load("/textures/grass/normal.jpg");
 const grassRoughnessTexture = textureLoader.load(
-  "/textures/bricks/roughness.jpg"
+  "/textures/grass/roughness.jpg"
 );
 
 grassColorTexture.repeat.set(8, 8);
